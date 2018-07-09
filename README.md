@@ -38,9 +38,10 @@ $ jenv add $(/usr/libexec/java_home -v 1.8)
 $ jenv add $(/usr/libexec/java_home -v 1.10)
 $ jenv global 1.8
 $ jenv enable-plugin export   # Setting JAVA_HOME 
+$ exec $SHELL -l
 
 # Install SDKMAN
-$ install/sdkman.sh
+$ ./init/sdkman.sh
 
 ```
 ## Manual Install

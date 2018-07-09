@@ -13,8 +13,8 @@ sudo nvram SystemAudioVolume=%05
 # フルキーボードアクセスを有効
 defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 
-# F1、F2 などのすべてのキーを標準ファンクションキーとして使用 (=使用しない)
-defaults write NSGlobalDomain com.apple.keyboard.fnState -bool false
+# F1、F2 などのすべてのキーを標準ファンクションキーとして使用
+defaults write NSGlobalDomain com.apple.keyboard.fnState -bool true
 
 # キーのリピート
 defaults write NSGlobalDomain KeyRepeat -int 2
@@ -44,7 +44,6 @@ defaults -currentHost write -globalDomain AppleFontSmoothing -int 2
 #
 # Menubar
 #
-
 
 # バッテリー残量を％表記に
 defaults write com.apple.menuextra.battery ShowPercent -string "YES"
@@ -173,9 +172,12 @@ defaults write NSGlobalDomain com.apple.swipescrolldirection -bool true
 # Mouse
 #
 
+# マウスの軌跡の速さ
+defaults write "Apple Global Domain" com.apple.mouse.scaling 1.6
+
 # スクロール方向をナチュラルに
 
-
+# 副ボタンのクリック
 
 #
 # Screen Capture
