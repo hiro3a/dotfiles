@@ -93,8 +93,8 @@ defaults write com.apple.dashboard mcx-disabled -bool true
 # デフォルトはカラムビュー表示
 defaults write com.apple.finder FXPreferredViewStyle clmv
 
-# デスクトップ上にアイコンを表示しない
-defaults write com.apple.finder CreateDesktop -boolean false
+# デスクトップ上にアイコンを表示しない(=表示する)
+defaults write com.apple.finder CreateDesktop -boolean true
 
 # タイトルバーにフルパスを表示
 defaults write com.apple.finder _FXShowPosixPathInTitle -bool true
