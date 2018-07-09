@@ -3,7 +3,7 @@
 ## Installation routine
 ```
 # Run software update
-$ sudo softwareupdate -i -a
+$ sudo softwareupdate --install --all
 
 # Install command line tools
 $ xcode-select --install
@@ -38,9 +38,10 @@ $ jenv add $(/usr/libexec/java_home -v 1.8)
 $ jenv add $(/usr/libexec/java_home -v 1.10)
 $ jenv global 1.8
 $ jenv enable-plugin export   # Setting JAVA_HOME 
+$ exec $SHELL -l
 
 # Install SDKMAN
-$ install/sdkman.sh
+$ ./init/sdkman.sh
 
 ```
 ## Manual Install
@@ -71,11 +72,15 @@ $ install/sdkman.sh
 ## 参考
 
 ### dotfiles
-https://github.com/umi-uyura/dotfiles
-https://github.com/datachomp/dotfiles/blob/master/homebrew_install.sh
+* https://github.com/umi-uyura/dotfiles
+* https://github.com/datachomp/dotfiles/blob/master/homebrew_install.sh
 
 ### Macコマンド設定
-http://blog.matsuokah.jp/entry/2016/01/01/161753
-https://ottan.xyz/os-x-customize-19-217/
-https://qiita.com/djmonta/items/17531dde1e82d9786816
-https://qiita.com/Ushio/items/9cde4cc44de4a7bfbebf
+* http://blog.matsuokah.jp/entry/2016/01/01/161753
+* https://ottan.xyz/os-x-customize-19-217/
+* https://qiita.com/djmonta/items/17531dde1e82d9786816
+* https://qiita.com/Ushio/items/9cde4cc44de4a7bfbebf
+
+### Xcodeインストール
+* https://qiita.com/yuchan/items/eeff7ef72648d6d3b934
+* https://qiita.com/dealforest/items/e15f6fb15f056051362d
