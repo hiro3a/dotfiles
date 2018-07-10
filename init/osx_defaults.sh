@@ -187,7 +187,8 @@ defaults write "Apple Global Domain" com.apple.mouse.scaling 1.6
 #
 
 # キャプチャの保存場所を変更
-defaults write com.apple.screencapture location ~/Pictures
+mkdir ~/Pictures/ScreenShot
+defaults write com.apple.screencapture location ~/Pictures/ScreenShot
 
 # キャプチャのプレフィックスを変更
 defaults write com.apple.screencapture name "SS_"
