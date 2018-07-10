@@ -57,7 +57,7 @@ defaults write com.apple.menuextra.clock DateFormat -string "M\u6708d\u65e5(EEE)
 #
 
 # 通常サイズ
-defaults write com.apple.dock tilesize -int 32
+defaults write com.apple.dock tilesize -int 55
 
 # 拡大を有効にする (=無効)
 defaults write com.apple.dock magnification -bool no
