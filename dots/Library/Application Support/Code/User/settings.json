@@ -2,4 +2,5 @@
     "editor.fontSize": 14,
     "editor.fontFamily": "Ricty",
     "editor.renderWhitespace": "boundary",
+    "git.autofetch": true,
 }
