@@ -49,7 +49,10 @@ defaults -currentHost write -globalDomain AppleFontSmoothing -int 2
 defaults write com.apple.menuextra.battery ShowPercent -string "YES"
 
 # 日付と時刻のフォーマット（24時間表示、秒表示あり、日付・曜日を表示）
-defaults write com.apple.menuextra.clock DateFormat -string "M\u6708d\u65e5(EEE)  H:mm:ss"
+defaults write com.apple.menuextra.clock DateFormat -string "M\u6708d\u65e5(EEE) H:mm:ss"
+
+# Sportlightのアイコンを消す (600:消す 755:表示する)
+sudo chmod 600 /System/Library/CoreServices/Search.bundle/Contents/MacOS/Search
 
 
 #
